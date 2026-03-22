@@ -413,3 +413,34 @@ echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
 3. terraform version
 
 4. which terraform
+
+=================================================================
+
+# Fixing .ipynb issue
+
+pip install ipykernel
+
+Add the conda-forge channel (which contains ipykernel) and set channel priority to avoid conflicts:
+
+```
+bash
+conda config --add channels conda-forge
+conda config --set channel_priority flexible
+```
+
+```
+conda install ipykernel -y
+```
+
+Select the kernel in your .ipynb file:
+
+Click on the kernel picker in the top‑right corner.
+
+Choose Python (myenv) (the display name you set) or the environment you just installed into
+
+Test by running a simple cell:
+
+```
+import numpy as np
+print("Kernel is working!")
+```
