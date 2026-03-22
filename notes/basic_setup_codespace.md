@@ -418,9 +418,9 @@ echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
 
 # Fixing .ipynb issue
 
-'''
+```
 pip install ipykernel
-'''
+```
 
 Add the conda-forge channel (which contains ipykernel) and set channel priority to avoid conflicts:
 
