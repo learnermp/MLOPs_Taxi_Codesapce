@@ -447,7 +447,7 @@ import numpy as np
 print("Kernel is working!")
 ```
 =============================================================
-# Day_02/22March2026 On Google SDK
+# Day_02/23March2026 On Google SDK
 ```
 gcloud auth login
 ```
@@ -468,9 +468,28 @@ gcloud compute instances list
 gcloud compute instances start vm-mlops --zone=us-central1-c
 ```
 ** This part "--zone=us-central1-a" is required when original zone does not have the required resource capacity. ***
+
 # Could not work on Google Cloud VM due to resource unavailability in the us zone for standard machine.
 @ Therefore, today work will be on codespace.
 
+# Day_03/23March2026 On "ominous-invention" codespace
+
+```
+conda env list
+```
+```
+conda activate myenv
+```
+- check the version of terraform, docker and docker-compose
+
+<img width="403" height="426" alt="image" src="https://github.com/user-attachments/assets/079e75b5-ad2b-4f1a-b57a-95fd4d5876be" />
+
+```
+pip install -r requirements.txt
+```
+```
+
+```
 
 
 
