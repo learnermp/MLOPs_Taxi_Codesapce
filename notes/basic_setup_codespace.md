@@ -468,6 +468,8 @@ gcloud compute instances list
 gcloud compute instances start vm-mlops --zone=us-central1-c
 ```
 ** This part "--zone=us-central1-a" is required when original zone does not have the required resource capacity. ***
+# Could not work on Google Cloud VM due to resource unavailability in the us zone for standard machine.
+@ Therefore, today work will be on codespace.
 
 
 
