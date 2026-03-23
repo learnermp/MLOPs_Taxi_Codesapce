@@ -446,3 +446,30 @@ Test by running a simple cell:
 import numpy as np
 print("Kernel is working!")
 ```
+=============================================================
+# Day_02/22March2026 On Google SDK
+```
+gcloud auth login
+```
+```
+gcloud projects list
+```
+```
+gcloud config set project mlops-490916
+```
+```
+gcloud config get-value project
+```
+```
+gcloud compute instances list
+```
+* Next try this
+```
+gcloud compute instances start vm-mlops --zone=us-central1-c
+```
+** This part "--zone=us-central1-a" is required when original zone does not have the required resource capacity. ***
+
+
+
+
+
