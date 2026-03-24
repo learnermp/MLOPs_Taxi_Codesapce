@@ -487,10 +487,8 @@ conda activate myenv
 ```
 pip install -r requirements.txt
 ```
-```
+# Day_04/24March2026 On "ominous-invention" codespace
 
-```
-
-
+-  Worked on the the notebook week01_01_duration_prediction.ipynb from cell no. [21] onwards
 
 
