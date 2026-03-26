@@ -5,3 +5,7 @@ fastparquet
 pymongo
 matplotlib
 seaborn
+mlflow
+jupyter
+hyperopt
+xgboost

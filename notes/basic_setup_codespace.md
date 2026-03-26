@@ -487,9 +487,12 @@ conda activate myenv
 ```
 pip install -r requirements.txt
 ```
-```
+- Now Pushed .parquet data to MongoDB after beig read by pandas
 
-```
+- A new notebook week01_01_duration_prediction.ipynb is created for fetching data
+  from MongoDB and saving it as .csv after few processing steps.
+
+- 
 
 
 
