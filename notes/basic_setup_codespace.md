@@ -487,13 +487,8 @@ conda activate myenv
 ```
 pip install -r requirements.txt
 ```
-- Now Pushed .parquet data to MongoDB after beig read by pandas
+# Day_04/24March2026 On "ominous-invention" codespace
 
-- A new notebook week01_01_duration_prediction.ipynb is created for fetching data
-  from MongoDB and saving it as .csv after few processing steps.
-
-- 
-
-
+-  Worked on the the notebook week01_01_duration_prediction.ipynb from cell no. [21] onwards
 
 
