@@ -491,4 +491,17 @@ pip install -r requirements.txt
 
 -  Worked on the the notebook week01_01_duration_prediction.ipynb from cell no. [21] onwards
 
+# Day_05/25March2026 On "ominous-invention" codespace
+
+-  Worked on the basic set-up of mlflow
+
+```
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+```
+
+![alt text](image-4.png)
+
+# Day_06/26March2026 On "ominous-invention" codespace
+
+
 
